@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20208ef-a524-43fa-88b0-890d0cfe1c9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/atomic/AtomicCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/atomic/AtomicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/atomic/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/atomic/LongDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/atomic/SyncCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/lock/ConditionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/lock/Count3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/lock/LockMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/lock/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ql/geekTime/lock/ThreadB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f20208ef-a524-43fa-88b0-890d0cfe1c9f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ql/geekTime/lock/Count3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
+            <state relative-caret-position="750">
               <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
@@ -108,7 +95,6 @@
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#156#171#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,52 +185,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GeekTime_week04" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GeekTime_week04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GeekTime_week04" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GeekTime_week04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GeekTime_week04" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GeekTime_week04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GeekTime_week04" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GeekTime_week04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GeekTime_week04" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GeekTime_week04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="geekTime" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GeekTime_week03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -357,6 +307,7 @@
       <workItem from="1621863097821" duration="4525000" />
       <workItem from="1621922266877" duration="11078000" />
       <workItem from="1622007345437" duration="1643000" />
+      <workItem from="1622017923033" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="week04">
       <created>1621868512172</created>
@@ -369,7 +320,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22488000" />
+    <option name="totallyTimeSpent" value="22496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,7 +334,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -582,6 +533,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ql/geekTime/lock/Count3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ql/geekTime/atomic/Count.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -607,13 +565,6 @@
           <folding>
             <element signature="e#210#430#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ql/geekTime/lock/Count3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
