@@ -5,7 +5,7 @@ import java.sql.*;
 import java.util.concurrent.locks.Condition;
 
 public class HomeWork_JDBC_Demo {
-    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver"; //mysql 8.0版本以上
     static final String DB_URL = "jdbc:mysql://localhost:3306/ql_demo";
 
     // 数据库的用户名与密码，需要根据自己的设置

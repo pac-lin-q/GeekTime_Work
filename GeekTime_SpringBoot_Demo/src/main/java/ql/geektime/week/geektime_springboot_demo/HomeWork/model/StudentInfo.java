@@ -1,4 +1,4 @@
-package ql.geektime.week.geektime_springboot_demo.HomeWork;
+package ql.geektime.week.geektime_springboot_demo.HomeWork.model;
 
 import lombok.Data;
 
