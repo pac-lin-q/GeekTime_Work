@@ -1,6 +1,10 @@
 package ql.geektime.week.geektime_springboot_demo.jdbc_demo;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import ql.geektime.week.geektime_springboot_demo.HomeWork.model.StudentInfo;
+
 import java.sql.*;
 import java.util.concurrent.locks.Condition;
 
@@ -12,9 +16,12 @@ public class HomeWork_JDBC_Demo {
     static final String USER = "root";
     static final String PASS = "spdb1234";
 
+    @Autowired
+    StudentInfo studentInfo;
+
     public static void main(String[] args) {
         new HomeWork_JDBC_Demo().queryData("select * from studentinfo");
-        new HomeWork_JDBC_Demo().addData("insert into studentinfo (name,age,sex,cardid,kcid) values (?,?,?,?,?)");
+//        new HomeWork_JDBC_Demo().addData("insert into studentinfo (name,age,sex,cardid,kcid) values (?,?,?,?,?)");
     }
 
     public void addData(String sql){
@@ -57,7 +64,7 @@ public class HomeWork_JDBC_Demo {
             pstmt = conn.prepareStatement(sql);
             rs = pstmt.executeQuery();
             while(rs.next()) {
-                System.out.println(rs.getString("name"));
+                System.out.println("rs is:" + rs);
             }
         } catch (Exception e){
             e.printStackTrace();

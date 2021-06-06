@@ -14,7 +14,22 @@ public class StudentService implements StudentMapper {
     private StudentMapper studentMapper;
 
     @Override
-    public List<StudentInfo> getAllUsers() {
-        return studentMapper.getAllUsers();
+    public List<StudentInfo> getAllUsers(String name) {
+        return studentMapper.getAllUsers(name);
+    }
+
+    @Override
+    public int update(String name) {
+        return studentMapper.update(name);
+    }
+
+    @Override
+    public int deleteByName(String name) {
+        return studentMapper.deleteByName(name);
+    }
+
+    @Override
+    public int save(StudentInfo studentInfo) {
+        return studentMapper.save(studentInfo);
     }
 }

@@ -3,6 +3,6 @@
 <mapper namespace="ql.geektime.week.geektime_springboot_demo.HomeWork" >
 
     <select id="stuQuaery" resultType="java.lang.Integer">
-        SELECT count(name) from studentinfo
+        SELECT * from studentinfo
     </select>
 </mapper>
