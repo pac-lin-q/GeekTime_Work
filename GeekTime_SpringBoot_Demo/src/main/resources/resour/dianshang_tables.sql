@@ -38,7 +38,7 @@ CREATE TABLE `ds_commodity`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `ds_user`;
 CREATE TABLE `ds_user`  (
-  `user_id` int(0) NOT NULL AUTO_INCREMENT,
+  `user_id` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `user_name` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `user_telno` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `user_email` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
@@ -57,6 +57,9 @@ DROP TABLE IF EXISTS `ds_order`;
 CREATE TABLE `ds_order`  (
   `order_id` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `order_proid` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `order_userid` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `order_pronum` int(0) NOT NULL,
+  `order_amount` decimal(10, 2) NOT NULL,
   `order_createtime` datetime(0) NOT NULL,
   `order_endtime` datetime(0) NOT NULL,
   `order_paytime` datetime(0) NOT NULL,
