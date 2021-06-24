@@ -23,7 +23,7 @@ public class ShardingJDBC {
         try {
             DataSource dataSource = YamlShardingSphereDataSourceFactory.createDataSource(new File("./src/main/resources/shardingJDBC.yml"));
             addBactch("",dataSource);
-//            query(dataSource);
+//            query(dataSource,857632453735481345L);
 //            upData(dataSource);
 //            delData(dataSource);
         } catch (SQLException e) {
@@ -43,9 +43,12 @@ public class ShardingJDBC {
             conn = dataSource.getConnection();
             conn.setAutoCommit(false);
             PreparedStatement psmt = conn.prepareStatement(sql);
+            Long lo = 0L;
             for (int i = 0; i <num ; i++) {
                 Random rd1 = new Random();
-                psmt.setLong(1, s.getUid());
+                lo=s.getUid();
+                System.out.println("lo is:" + lo);
+                psmt.setLong(1, l);
                 psmt.setInt(2,rd1.nextInt(1000));
                 psmt.addBatch();
                 if (i%20000 ==0){
@@ -55,6 +58,7 @@ public class ShardingJDBC {
             }
             psmt.executeBatch();
             conn.commit();
+            query(dataSource,1624517988212L);
             System.out.println("TIME IS:"+ (System.currentTimeMillis()-l)/1000);
         } catch (SQLException e) {
             e.printStackTrace();
@@ -62,8 +66,9 @@ public class ShardingJDBC {
 
     }
 
-    public static void query(DataSource dataSource){
-        String sql = "select * from ds_order where order_id =857397376585826304";
+    public static void query(DataSource dataSource,Long orderid){
+        System.out.println(orderid+"=="+(orderid/16));
+        String sql = "select * from ds_order where order_userid=588";
         System.out.println(dataSource);
         try {
             List l = new ArrayList<>();
@@ -123,7 +128,7 @@ public class ShardingJDBC {
             }
         }else {
             System.out.println("不是多线程并发插入数据");
-            insetData(source,1000000);
+            insetData(source,1);
         }
     }
 }

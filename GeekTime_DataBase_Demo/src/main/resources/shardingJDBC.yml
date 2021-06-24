@@ -15,11 +15,41 @@
       username: root
       password: spdb1234
 
+    # 配置第 1.1 个读数据源
+    slave_ds_0_0:
+      dataSourceClassName: com.zaxxer.hikari.HikariDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3308/ds_0?rewriteBatchedStatements=true
+      username: root
+      password: spdb1234
+    # 配置第 1.2 个读数据源
+    slave_ds_0_1:
+      dataSourceClassName: com.zaxxer.hikari.HikariDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3308/ds_1?rewriteBatchedStatements=true
+      username: root
+      password: spdb1234
+
+    # 配置第 2.1 个读数据源
+    slave_ds_1_0:
+      dataSourceClassName: com.zaxxer.hikari.HikariDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3309/ds_0?rewriteBatchedStatements=true
+      username: root
+      password: spdb1234
+    # 配置第 1.2 个读数据源
+    slave_ds_1_1:
+      dataSourceClassName: com.zaxxer.hikari.HikariDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3309/ds_1?rewriteBatchedStatements=true
+      username: root
+      password: spdb1234
+
   rules:
     # 配置分片规则
     - !SHARDING
       tables:
-        # 配置 t_order 表规则
+        # 配置 ds_order 表规则
         ds_order:
           actualDataNodes: ds_${0..1}.ds_order_${0..15}
           # 配置分库策略
@@ -43,3 +73,19 @@
           type: INLINE
           props:
             algorithm-expression: ds_order_${order_id % 16}
+
+    - !READWRITE_SPLITTING # 配置读写分离规则
+      dataSources:
+        ds: # 读写分离的逻辑数据源名称 `ds` 用于在数据分片中使用
+          writeDataSourceName: ds_0,ds_1 # 使用真实存在的数据源名称 `write_ds`
+          readDataSourceNames:
+            - slave_ds_0_0 # 使用真实存在的数据源名称 `read_ds_0_0`
+            - slave_ds_0_1 # 使用真实存在的数据源名称 `read_ds_0_1`
+            - slave_ds_1_0 # 使用真实存在的数据源名称 `read_ds_1_0`
+            - slave_ds_1_1 # 使用真实存在的数据源名称 `read_ds_1_1`
+          loadBalancerName: roundRobin
+      loadBalancers:
+        roundRobin:
+          type: ROUND_ROBIN
+  props:
+    sql-show: true
