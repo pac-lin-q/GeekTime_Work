@@ -3,6 +3,7 @@ package ql.geektime.geektime_database_demo.config;
 import org.apache.shardingsphere.driver.api.yaml.YamlShardingSphereDataSourceFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import ql.geektime.geektime_database_demo.util.DataSourceUtils;
 import ql.geektime.geektime_database_demo.util.SnowFlakeGenerateIdWorker;
 
 import javax.sql.DataSource;
@@ -20,17 +21,11 @@ public class ShardingJDBC {
 
     @Bean(name = "shardingDataSource")
     public void init(){
-        try {
-            DataSource dataSource = YamlShardingSphereDataSourceFactory.createDataSource(new File("./src/main/resources/shardingJDBC.yml"));
+            DataSource dataSource = DataSourceUtils.getShardingSphereDataSource();
 //            addBactch("",dataSource);
 //            query(dataSource,857632453735481345L);
 //            upData(dataSource);
 //            delData(dataSource);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     public static void insetData(DataSource dataSource,int num){
