@@ -13,7 +13,7 @@ import java.util.*;
 
 /**
  * 设计对前面的订单表数据进行水平分库分表，拆分 2 个库，每个库 16 张表。并在新结构在演示常见的增删改查操作。代码、sql 和配置文件，上传到 Github。
- * 配置文件：shardingJDBC.yml
+ * YML配置文件：shardingJDBC.yml
  */
 @Configuration
 public class ShardingJDBC {
@@ -22,7 +22,7 @@ public class ShardingJDBC {
     public void init(){
         try {
             DataSource dataSource = YamlShardingSphereDataSourceFactory.createDataSource(new File("./src/main/resources/shardingJDBC.yml"));
-            addBactch("",dataSource);
+//            addBactch("",dataSource);
 //            query(dataSource,857632453735481345L);
 //            upData(dataSource);
 //            delData(dataSource);
