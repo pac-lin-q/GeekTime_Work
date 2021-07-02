@@ -1,4 +1,4 @@
-package qianl.geektime.qianl_geektime;
+package qianl.geektime.rpcfx.demo.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

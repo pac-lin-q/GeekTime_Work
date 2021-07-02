@@ -9,18 +9,35 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>qianl.geektime</groupId>
-    <artifactId>qianl_geektime</artifactId>
+    <artifactId>rpcfx-demo-providder</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>qianl_geektime</name>
+    <name>rpcfx-demo-providder</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
         <dependency>
+            <groupId>qianl.geektime</groupId>
+            <artifactId>rpcfx-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>qianl.geektime</groupId>
+            <artifactId>rpcfx-demo-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
 
         <dependency>
             <groupId>org.projectlombok</groupId>

@@ -1,13 +1,13 @@
-package qianl.geektime.qianl_geeltime;
+package qianl.geektime.rpcfx.demo.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QianlGeeltimeApplication {
+public class QianlGeektimeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(QianlGeeltimeApplication.class, args);
+        SpringApplication.run(QianlGeektimeApplication.class, args);
     }
 
 }
