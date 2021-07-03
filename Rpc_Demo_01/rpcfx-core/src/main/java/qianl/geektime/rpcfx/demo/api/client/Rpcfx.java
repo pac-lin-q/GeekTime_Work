@@ -2,6 +2,16 @@ package qianl.geektime.rpcfx.demo.api.client;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.ParserConfig;
+import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.*;
+import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
+import io.netty.handler.codec.LengthFieldPrepender;
+import io.netty.handler.codec.serialization.ClassResolvers;
+import io.netty.handler.codec.serialization.ObjectDecoder;
+import io.netty.handler.codec.serialization.ObjectEncoder;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -73,8 +83,8 @@ public class Rpcfx {
                 }
             }
 
-            RpcfxResponse response = post(request, url);
-
+//            RpcfxResponse response = post(request, url);
+            RpcfxResponse response = clientForNetty(request);
             // 加filter地方之三
             // Student.setTeacher("cuijing");
 
@@ -97,6 +107,45 @@ public class Rpcfx {
             String respJson = client.newCall(request).execute().body().string();
             System.out.println("resp json: "+respJson);
             return JSON.parseObject(respJson, RpcfxResponse.class);
+        }
+    }
+
+    /**
+     * 使用netty请求数据
+     * @param rpcfxRequest
+     * @throws Exception
+     * @return
+     */
+    public static RpcfxResponse clientForNetty(RpcfxRequest rpcfxRequest) throws Exception{
+        {
+            ResultHandler resultHandler = new ResultHandler();
+            EventLoopGroup group = new NioEventLoopGroup();
+            try {
+                Bootstrap bootstrap = new Bootstrap();
+                bootstrap.group(group)
+                        .channel(NioSocketChannel.class)
+                        .option(ChannelOption.TCP_NODELAY, true)
+                        .handler(new ChannelInitializer<SocketChannel>() {
+                            @Override
+                            public void initChannel(SocketChannel ch) throws Exception {
+                                System.out.println("正在连接中。。。。");
+                                ChannelPipeline pipeline = ch.pipeline();
+                                pipeline.addLast("frameDecoder", new LengthFieldBasedFrameDecoder(Integer.MAX_VALUE, 0, 4, 0, 4));
+                                pipeline.addLast("frameEncoder", new LengthFieldPrepender(4));
+                                pipeline.addLast("encoder", new ObjectEncoder());
+                                pipeline.addLast("decoder", new ObjectDecoder(Integer.MAX_VALUE, ClassResolvers.cacheDisabled(null)));
+                                pipeline.addLast("handler",resultHandler);
+                            }
+                        });
+                ChannelFuture channelFuture = bootstrap.connect("localhost",8080).sync();
+                channelFuture.channel().writeAndFlush(rpcfxRequest).sync();
+                System.out.println("message is:"+ rpcfxRequest);
+                channelFuture.channel().closeFuture().sync();
+            } finally {
+                group.shutdownGracefully();
+            }
+            System.out.println("调用服务器数据返回回来的数据:" + resultHandler.getResult());
+            return (RpcfxResponse) resultHandler.getResult();
         }
     }
 }
