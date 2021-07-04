@@ -9,14 +9,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import qianl.geektime.rpcfx.demo.api.api.RpcfxRequest;
-import qianl.geektime.rpcfx.demo.api.api.RpcfxResolver;
-import qianl.geektime.rpcfx.demo.api.api.RpcfxResponse;
-import qianl.geektime.rpcfx.demo.api.api.ServiceProviderDesc;
+import qianl.geektime.rpcfx.demo.api.api.*;
 import qianl.geektime.rpcfx.demo.api.server.RpcfxInvoker;
 import qianl.geektime.rpcfx.demo.api.service.OrderService;
 import qianl.geektime.rpcfx.demo.api.service.UserService;
-
 import java.net.InetAddress;
 
 @SpringBootApplication
@@ -42,22 +38,22 @@ public class RpcfxDemoProviderApplication {
         SpringApplication.run(RpcfxDemoProviderApplication.class, args);
     }
 
-    private static void registerService(CuratorFramework client, String service) throws Exception {
-        ServiceProviderDesc userServiceSesc = ServiceProviderDesc.builder()
-                .host(InetAddress.getLocalHost().getHostAddress())
-                .port(8080).serviceClass(service).build();
+    private static void registerService(CuratorFramework client, String service) {
+
         // String userServiceSescJson = JSON.toJSONString(userServiceSesc);
 
         try {
+            ServiceProviderDesc userServiceSesc = ServiceProviderDesc.builder()
+                    .host(InetAddress.getLocalHost().getHostAddress())
+                    .port(8080).serviceClass(service).build();
             if ( null == client.checkExists().forPath("/" + service)) {
                 client.create().withMode(CreateMode.PERSISTENT).forPath("/" + service, "service".getBytes());
             }
+            client.create().withMode(CreateMode.EPHEMERAL).
+                    forPath( "/" + service + "/" + userServiceSesc.getHost() + "_" + userServiceSesc.getPort(), "provider".getBytes());
         } catch (Exception ex) {
-            ex.printStackTrace();
+            new InvalidException("ERR0001","服务处理异常！");
         }
-
-        client.create().withMode(CreateMode.EPHEMERAL).
-                forPath( "/" + service + "/" + userServiceSesc.getHost() + "_" + userServiceSesc.getPort(), "provider".getBytes());
     }
 
     @Autowired

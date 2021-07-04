@@ -40,28 +40,14 @@
       <change afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/mvnw" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/mvnw.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/LoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/Router.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/ServiceProviderDesc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/client/Rpcfx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/server/RpcfxInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/RpcfxDemoConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/DemoResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpcfx-demo-provider/src/test/java/qianl/geektime/rpcfx/demo/api/QianlGeektimeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_76.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_63_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/InvalidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/demo/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/demo/HomeWorkForNetty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/NettyClientChannelDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/RequstforNetty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/ResultHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/GeekTime_Work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/GeekTime_Work.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
@@ -81,27 +67,10 @@
       <change beforePath="$PROJECT_DIR$/../GeekTime_week05/src/main/java/ql/GeekTime/springjms/JmsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GeekTime_week05/src/main/java/ql/GeekTime/springjms/JmsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GeekTime_week05/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GeekTime_week05/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GeekTime_week05/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GeekTime_week05/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/LoadBalancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/Router.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/RpcfxRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/RpcfxRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/RpcfxResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/RpcfxResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/RpcfxResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/RpcfxResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/ServiceProviderDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/api/ServiceProviderDesc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/client/Rpcfx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/client/Rpcfx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/server/RpcfxInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/server/RpcfxInvoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-demo-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/qianl_geektime/QianlGeektimeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/java/qianl/geektime/qianl_geektime/QianlGeektimeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-demo-api/src/test/java/qianl/geektime/qianl_geektime/QianlGeektimeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/test/java/qianl/geektime/qianl_geektime/QianlGeektimeApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpcfx-demo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-demo-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/qianl_geeltime/QianlGeeltimeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/RpcfxDemoProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-demo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-demo-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/qianl_geektime/QianlGeektimeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/QianlGeektimeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../RPC_Demo/rpcfx-core/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcfx-demo-provider/src/test/java/qianl/geektime/qianl_geektime/QianlGeektimeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-demo-api/src/test/java/qianl/geektime/rpcfx/demo/api/QianlGeektimeApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/RpcfxDemoProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/RpcfxDemoProviderApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -119,21 +88,15 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcfx-demo-provider/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rpcfx-demo-provider/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/demo/HomeWorkForNetty.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,73 +104,91 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/RpcfxDemoConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-              <folding>
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
-                <element signature="e#1688#1689#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="79">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/RpcfxDemoProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+            <state relative-caret-position="64">
+              <caret line="42" column="75" lean-forward="true" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
               <folding>
-                <element signature="e#2059#2060#0" expanded="true" />
-                <element signature="e#2105#2106#0" expanded="true" />
-                <element signature="e#2504#2505#0" expanded="true" />
-                <element signature="e#2542#2543#0" expanded="true" />
-                <element signature="e#2190#2191#0" expanded="true" />
-                <element signature="e#2239#2240#0" expanded="true" />
-                <element signature="e#2293#2294#0" expanded="true" />
-                <element signature="e#2334#2335#0" expanded="true" />
-                <element signature="e#2482#2483#0" expanded="true" />
-                <element signature="e#2526#2527#0" expanded="true" />
-                <element signature="e#2633#2634#0" expanded="true" />
-                <element signature="e#2678#2679#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/Order.java">
+        <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/InvalidException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/User.java">
+        <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/client/Rpcfx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="264">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4870#5751#0" expanded="true" />
+                <element signature="e#5750#5751#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/service/UserService.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.65.Final/netty-transport-4.1.65.Final.jar!/io/netty/channel/ChannelOutboundInvoker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="1025">
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/ResultHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/RequstforNetty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -230,7 +211,6 @@
       <list>
         <option value="$PROJECT_DIR$/rpcfx-core/pom.xml" />
         <option value="$PROJECT_DIR$/rpcfx-demo-api/pom.xml" />
-        <option value="$PROJECT_DIR$/rpcfx-demo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/service/OrderService.java" />
         <option value="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/Order.java" />
         <option value="$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/User.java" />
@@ -242,14 +222,24 @@
         <option value="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/RpcfxDemoProviderApplication.java" />
+        <option value="$PROJECT_DIR$/rpcfx-demo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/HomeWorkForNetty.java" />
+        <option value="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/ResultHandler.java" />
+        <option value="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/RequstforNetty.java" />
+        <option value="$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/NettyClientChannelDemo.java" />
+        <option value="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/ResultHandler.java" />
         <option value="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/client/Rpcfx.java" />
+        <option value="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/Utils/InvalidException.java" />
+        <option value="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/InvalidException.java" />
+        <option value="$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxResponse.java" />
+        <option value="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/RpcfxDemoProviderApplication.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="y" value="92" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -261,6 +251,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,25 +271,153 @@
               <item name="rpcfx-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="hemowork_netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rpc_Demo_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rpc_Demo_01" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcfx-demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GeekTime\HomeWork\GeekTime_Work\GeekTime_Work\Rpc_Demo_01\rpcfx-demo-api\.mvn" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="qianl.geektime.rpcfx.demo.api.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GeekTime\HomeWork\GeekTime_Work\GeekTime_Work\Rpc_Demo_01\rpcfx-demo-provider\src\main\java\qianl\geektime\rpcfx\demo\provider" />
@@ -316,7 +436,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.QianlGeeltimeApplication">
+  <component name="RunManager" selected="Spring Boot.RpcfxDemoConsumerApplication">
     <configuration name="QianlGeektimeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rpcfx-core" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="qianl.geektime.qianl_geektime.QianlGeektimeApplication" />
@@ -331,6 +451,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RpcfxDemoConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rpcfx-demo-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qianl.geektime.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="qianl.geektime.consumer.RpcfxDemoConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcfxDemoProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rpcfx-demo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qianl.geektime.rpcfx.demo.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="qianl.geektime.rpcfx.demo.provider.RpcfxDemoProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RpcfxDemoProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rpcfx-demo-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="qianl.geektime.rpcfx.demo.api.RpcfxDemoProviderApplication" />
@@ -338,6 +484,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RpcfxDemoConsumerApplication" />
+        <item itemvalue="Spring Boot.RpcfxDemoProviderApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -350,7 +502,9 @@
       <option name="presentableId" value="Default" />
       <updated>1625193916438</updated>
       <workItem from="1625193921866" duration="34000" />
-      <workItem from="1625194000716" duration="5376000" />
+      <workItem from="1625194000716" duration="6018000" />
+      <workItem from="1625318335976" duration="5903000" />
+      <workItem from="1625356578759" duration="1561000" />
     </task>
     <task id="LOCAL-00001" summary="week09_homework_01">
       <created>1625194501673</created>
@@ -359,28 +513,41 @@
       <option name="project" value="LOCAL" />
       <updated>1625194501673</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="week09_homework_01">
+      <created>1625212096636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625212096636</updated>
+    </task>
+    <task id="LOCAL-00003" summary="week09_homework_01">
+      <created>1625324633235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625324633235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5410000" />
+    <option name="totallyTimeSpent" value="13516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.4989339" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8326226" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,10 +555,12 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1673774" side_tool="true" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Jms Browser" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,13 +586,6 @@
         <state relative-caret-position="-225" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/server/RpcfxInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -445,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -459,80 +614,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/DemoResolver.java" />
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/OrderServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/UserServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/rpcfx-demo-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/DemoResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/RpcfxDemoConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,31 +631,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/client/Rpcfx.java">
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/RpcfxDemoProviderApplication.java">
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding>
-            <element signature="e#2059#2060#0" expanded="true" />
-            <element signature="e#2105#2106#0" expanded="true" />
-            <element signature="e#2504#2505#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2190#2191#0" expanded="true" />
-            <element signature="e#2239#2240#0" expanded="true" />
-            <element signature="e#2293#2294#0" expanded="true" />
-            <element signature="e#2334#2335#0" expanded="true" />
-            <element signature="e#2482#2483#0" expanded="true" />
-            <element signature="e#2526#2527#0" expanded="true" />
-            <element signature="e#2633#2634#0" expanded="true" />
-            <element signature="e#2678#2679#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-api/src/main/java/qianl/geektime/rpcfx/demo/api/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -575,6 +656,162 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/demo/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/ResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/DemoResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/plugin.jar!/sun/plugin2/main/server/ResultHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/NettyClientChannelDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="13" selection-start-line="26" selection-start-column="95" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/demo/HomeWorkForNetty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.65.Final/netty-transport-4.1.65.Final.jar!/io/netty/channel/ChannelOutboundInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/ResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/hemowork_netty/rpc/RequstforNetty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/Utils/InvalidException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/InvalidException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/api/RpcfxResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-core/src/main/java/qianl/geektime/rpcfx/demo/api/client/Rpcfx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4870#5751#0" expanded="true" />
+            <element signature="e#5750#5751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-consumer/src/main/java/qianl/geektime/consumer/RpcfxDemoConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcfx-demo-provider/src/main/java/qianl/geektime/rpcfx/demo/provider/RpcfxDemoProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="42" column="75" lean-forward="true" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
